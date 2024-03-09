@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veg-items</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="store.js" async></script>
+  <style>
+    body{
+      background-color: #ffffff;
+      margin:0;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li class="nav-items"><a href="index .html">Home</a></li>
+      <li class="nav-items"><a href="#">Store</a></li>
+      <li class="nav-items"><a href="#">About</a></li>
+      <li class="nav-items"><a href="#">Help</a></li>
+    </ul>
+    <div class="right-container">
+      <input class="search-btn-main" type="text" placeholder="Search..">
+      <img class="cart-logo" src="Images/cart-logo.jpg">
+    </div>
+  </nav>
+  <div class="cont">
+    <img class="imgg" src="Images/veg-bg.jpg" alt="Loading image">
+    <div class="caption">
+      <p>Vegging out never looked so good</p>
+    </div>
+  </div>
+  <section class="container content-section">
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">Meals</span>
+        <img class="shop-item-image" src="Images/meals.jpeg">
+        <div class="shop-item-details">
+          <span class="shop-item-price">Rs.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Veg-Curry</span>
+        <img class="shop-item-image" src="Images/veg-curry.jpeg">
+        <div class="shop-item-details">
+          <span class="shop-item-price">Rs.59</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Paneer</span>
+        <img class="shop-item-image" src="Images/paneer.jpeg">
+        <div class="shop-item-details">
+          <span class="shop-item-price">Rs.159</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Veg-Biryani</span>
+        <img class="shop-item-image" src="Images/veg-biryani.jpeg">
+        <div class="shop-item-details">
+          <span class="shop-item-price">Rs.119</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Thali</span>
+        <img class="shop-item-image" src="Images/veg-thali.jpg">
+        <div class="shop-item-details">
+          <span class="shop-item-price">Rs.499</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Curd Rice</span>
+        <img class="shop-item-image" src="Images/curd-rice.jpeg">
+        <div class="shop-item-details">
+          <span class="shop-item-price">Rs.79</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Lemon Rice</span>
+        <img class="shop-item-image" src="Images/lemon-rice.jpeg">
+        <div class="shop-item-details">
+          <span class="shop-item-price">Rs.79</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container content-section">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+      <span class="cart-item cart-header cart-column">ITEM</span>
+      <span class="cart-price cart-header cart-column">PRICE</span>
+      <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">RS.0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+  </section>
+</body>
+
+</html>

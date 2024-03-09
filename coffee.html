@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="store.js" async></script>
+    <style>
+        *{
+            margin:0;
+        }
+        body {
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="index .html">Home</a></li>
+            <li class="nav-items"><a href="#">Store</a></li>
+            <li class="nav-items"><a href="#">About</a></li>
+            <li class="nav-items"><a href="#">Help</a></li>
+        </ul>
+        <div class="right-container">
+          <input class="search-btn-main" type="text" placeholder="Search..">
+          <img class="cart-logo" src="Images/cart-logo.jpg">
+        </div>
+    </nav>
+    <div class="cont">
+        <img class="imgg" src="Images/cofee-img.jpeg" alt="Loading image">
+        <div class="caption">
+          <p>Fuel for the mind, warmth for the soul☕️✨</p>
+        </div>
+    </div>
+    <section class="container content-section">
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Black Coffee</span>
+                <img class="shop-item-image" src="Images/Black-Coffee.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs.49</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Capachinno</span>
+                <img class="shop-item-image" src="Images/capachinno.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Cold Coffee</span>
+                <img class="shop-item-image" src="Images/cold-coffee.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs.79</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Filter Coffee</span>
+                <img class="shop-item-image" src="Images/filter coffee.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs.39</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Espresso</span>
+                <img class="shop-item-image" src="Images/espresso.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs.110</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Macchiato</span>
+                <img class="shop-item-image" src="Images/expresso-Macchiato.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">Rs.75</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO TABLE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cnt-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">RS.0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+</body>
+
+</html>
